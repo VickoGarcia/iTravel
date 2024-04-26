@@ -1,0 +1,130 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #022211;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav h1 {
+    color: white;
+    display:inline-block
+  }
+
+  nav img{
+    height: 40px;
+    width: 40px;
+    display:inline-block
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+    border-radius:16px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #338036;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  body{
+    background-image: url("./vancouver.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .verticalLine{
+    border-left: 2px solid white;
+    margin: 25px;
+    height: 200px;
+  }
+
+  i {
+    color:white;
+    padding-top: 20px;
+  }
+
+  .socialMedia{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-between;
+  }
+
+  .container{
+    display:flex;
+    flex-direction: row;
+    color:white;
+  }
+
+  .right-panel{
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .right-panel h1{
+    font-size: 60px;
+    text-shadow: 1px 1px 2px #022211;
+  }
+
+  .homeInfo{
+    max-width: 35ch;
+    text-shadow: 1px 1px 2px #022211;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
